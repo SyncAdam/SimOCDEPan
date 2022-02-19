@@ -434,6 +434,39 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 }
 */
 
+#documentscontent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+  text-align: center;
+  min-height: 300px;
+  background-color: #2f74a065;
+}
+
+.documentsbox{
+  color: white;
+  text-align: center;
+  min-width: 200px;
+  max-width: 1000px;
+  width: 88%;
+  margin: 20px auto 20px auto;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.documentsbox a:link{
+  text-decoration: none;
+  color:white;
+}
+
+.documentsbox a:visited{
+  text-decoration: none;
+  color:wheat;
+}
+
 article#main-col{
   float:left;
   width:65%;
